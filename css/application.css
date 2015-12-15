@@ -116,9 +116,9 @@ a:hover {
 
 /* Web Fonts -------------------- */
 @font-face {
-  font-family: 'Abolition Regular';
-  src: url("../fonts/abolition-regular-webfont.eot");
-  src: url("../fonts/abolition-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/abolition-regular-webfont.woff") format("woff"), url("../fonts/abolition-regular-webfont.ttf") format("truetype"); }
+  font-family: "Abolition Regular";
+  src: url("path-font/abolition-regular-webfont.eot");
+  src: url("path-font/abolition-regular-webfont.eot?#iefix") format("embedded-opentype"), url("path-font/abolition-regular-webfont.woff") format("woff"), url("path-font/abolition-regular-webfont.ttf") format("truetype"); }
 .main-heading {
   font-size: 5.625rem;
   color: #fff;
