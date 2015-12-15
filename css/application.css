@@ -49,18 +49,42 @@ a:hover {
 /* Floated Columns ------------------ */
 .tips {
   float: left; }
+  @media (max-width: 768px) {
+    .tips {
+      float: none;
+      width: 100%; } }
 
 .resorts {
   float: right; }
+  @media (max-width: 768px) {
+    .resorts {
+      float: none;
+      width: 100%; } }
 
 .primary-content {
   padding-top: 25px;
   padding-bottom: 95px; }
+  @media (max-width: 768px) {
+    .primary-content {
+      width: 100%;
+      padding: 20px;
+      border-top: none; } }
+  @media (max-width: 1024px) {
+    .primary-content {
+      width: 90%; } }
 
 .secondary-content {
   padding-top: 80px;
   padding-bottom: 70px;
   border-bottom: 2px solid #ffa949; }
+  @media (max-width: 768px) {
+    .secondary-content {
+      width: 100%;
+      padding: 20px;
+      border-top: none; } }
+  @media (max-width: 1024px) {
+    .secondary-content {
+      width: 90%; } }
 
 .wildlife {
   color: white;
@@ -72,17 +96,28 @@ a:hover {
   background-size: cover;
   box-shadow: inset 0 0 50px 10px rgba(0, 0, 0, 0.8);
   border-radius: 10px; }
+  @media (max-width: 1024px) {
+    .wildlife {
+      padding: 10% 12%;
+      margin: 50px 0 20px; } }
 
 .main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: 10px solid #ffa949; }
+  @media (max-width: 768px) {
+    .main-footer {
+      padding: 20px 0; } }
 
 .main-header {
   padding-top: 170px;
   height: 850px;
   background: linear-gradient(#ffa949, transparent 90%), linear-gradient(0deg, #fff, transparent), #ffa949 url("../img/mountains.jpg") no-repeat center;
   background-size: cover; }
+  @media (max-width: 768px) {
+    .main-header {
+      max-height: 380px;
+      padding: 50px 25px 0; } }
 
 .primary-content, .main-footer, .main-header {
   text-align: center; }
@@ -115,6 +150,9 @@ a:hover {
 .arrow {
   width: 50px;
   margin-top: 150px; }
+  @media (max-width: 768px) {
+    .arrow {
+      display: none; } }
 
 /* Web Fonts -------------------- */
 @font-face {
@@ -129,6 +167,10 @@ a:hover {
   text-transform: uppercase;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
   margin: 12px 0 0; }
+  @media (max-width: 768px) {
+    .main-heading {
+      font-size: 5rem;
+      line-height: 1.1; } }
 .main-title {
   font-size: 1.625rem;
   font-weight: 200;
@@ -136,10 +178,17 @@ a:hover {
   letter-spacing: .065em;
   border-bottom: 2px solid;
   padding-bottom: 10px; }
+  @media (max-width: 768px) {
+    .main-title {
+      font-size: 1.3rem;
+      border: none; } }
 
 .intro {
   font-size: 1.25em;
   line-height: 1.6;
   color: initial; }
+  @media (max-width: 768px) {
+    .intro {
+      font-size: 1rem; } }
 
 /*# sourceMappingURL=application.css.map */

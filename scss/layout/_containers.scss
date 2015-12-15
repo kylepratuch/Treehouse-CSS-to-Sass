@@ -5,6 +5,16 @@
   @extend %t-border;
 	padding-top: 25px;
   padding-bottom: 95px;
+
+  @media #{$brk-narrow} {
+    width: 100%;
+    padding: 20px;
+    border-top: none;
+  }
+
+  @media #{$brk-wide} {
+    width: 90%;
+  }
 }
 
 .secondary-content {
@@ -14,6 +24,16 @@
 	padding-top: 80px;
 	padding-bottom: 70px;
   border-bottom: 2px solid $color-border-dark;
+
+  @media #{$brk-narrow} {
+    width: 100%;
+    padding: 20px;
+    border-top: none;
+  }
+
+  @media #{$brk-wide} {
+    width: 90%;
+  }
 }
 
 .wildlife {
@@ -26,4 +46,9 @@
   background-size: cover;
   box-shadow: inset 0 0 50px 10px $color-shadow;
   border-radius: $br;
+
+  @media #{$brk-wide} {
+    padding: 10% 12%;
+    margin: 50px 0 20px;
+  }
 }
