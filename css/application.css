@@ -40,7 +40,7 @@ a:link {
   color: #ffa949;
   text-decoration: none; }
 a:visited {
-  color: lightblue; }
+  color: #add8e6; }
 a:hover {
   color: rgba(255, 169, 73, 0.4); }
 
@@ -58,7 +58,7 @@ a:hover {
 .secondary-content {
   padding-top: 80px;
   padding-bottom: 70px;
-  border-bottom: 2px solid #dfe2e6; }
+  border-bottom: 2px solid #ffa949; }
 
 .wildlife {
   color: white;
@@ -80,14 +80,13 @@ a:hover {
   padding-top: 170px;
   height: 850px;
   background: linear-gradient(#ffa949, transparent 90%), linear-gradient(0deg, #fff, transparent), #ffa949 url("../img/mountains.jpg") no-repeat center;
-  background-size: cover;
-  color: white; }
+  background-size: cover; }
 
 .primary-content, .main-footer, .main-header {
   text-align: center; }
 
 .primary-content, .secondary-content {
-  border-top: 2px solid #dfe2e6; }
+  border-top: 2px solid #ffa949; }
 
 .primary-content, .secondary-content {
   width: 75%;
@@ -122,7 +121,7 @@ a:hover {
   src: url("../fonts/abolition-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/abolition-regular-webfont.woff") format("woff"), url("../fonts/abolition-regular-webfont.ttf") format("truetype"); }
 .main-heading {
   font-size: 5.625rem;
-  color: white;
+  color: #fff;
   text-transform: uppercase;
   font-weight: normal;
   line-height: 1.3;
