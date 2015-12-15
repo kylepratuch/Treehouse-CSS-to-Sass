@@ -50,28 +50,11 @@ a:active {
   color: lightcoral; }
 
 /* Floated Columns ------------------ */
-.resorts,
-.tips {
-  width: 46.5%; }
-
 .tips {
   float: left; }
 
 .resorts {
   float: right; }
-
-.primary-content,
-.secondary-content {
-  width: 75%;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin: auto;
-  max-width: 960px; }
-
-.primary-content,
-.main-header,
-.main-footer {
-  text-align: center; }
 
 .primary-content {
   padding-top: 25px;
@@ -104,6 +87,27 @@ a:active {
   background: linear-gradient(#ffa949, transparent 90%), linear-gradient(0deg, #fff, transparent), #ffa949 url("../img/mountains.jpg") no-repeat center;
   background-size: cover;
   color: white; }
+
+.primary-content, .main-footer, .main-header {
+  text-align: center; }
+
+.primary-content, .secondary-content {
+  border-top: 2px solid #dfe2e6; }
+
+.primary-content, .secondary-content {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px; }
+
+.tips, .resorts {
+  width: 46.5%; }
+
+.secondary-content:after {
+  content: "";
+  display: table;
+  clear: both; }
 
 .callout {
   font-size: 1.25em;
